@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShadowLINKC2 - Dashboard</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #00ff99;
+            font-family: "Courier New", monospace;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #00ffcc;
+            text-shadow: 0 0 10px #00ffcc;
+            font-size: 36px;
+        }
+
+        .section {
+            margin-top: 30px;
+            background-color: #111;
+            padding: 15px;
+            border: 1px solid #00ff99;
+            border-radius: 8px;
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #00ffaa;
+        }
+
+        .btn {
+            background-color: #003322;
+            border: 1px solid #00ff99;
+            color: #00ff99;
+            padding: 10px;
+            cursor: pointer;
+            font-family: monospace;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #005544;
+        }
+    </style>
+</head>
+<body>
+    <h1>ShadowLINKC2 - Dashboard</h1>
+
+    <div class="section">
+        <h2>Active Bots</h2>
+        <p>[Placeholder] Bot #001 - Windows 10 - Online</p>
+        <p>[Placeholder] Bot #002 - Windows 11 - Idle</p>
+    </div>
+
+    <div class="section">
+        <h2>Command Center</h2>
+        <p>Execute command on selected bot:</p>
+        <input type="text" placeholder="Command..." style="width: 300px;">
+        <button class="btn">Send</button>
+    </div>
+
+    <div class="section">
+        <h2>Logs</h2>
+        <p>[+] Bot #001 responded: "OK"</p>
+        <p>[+] Screenshot received</p>
+    </div>
+</body>
+</html>
